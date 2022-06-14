@@ -1,2 +1,2 @@
 # 3DCNN
-## Estimating whether a given video is ego-centirc or exo-centric based on a 3-dimensional CNN. Also includes an option to use an optical flow framework to estimate the same.
+## Classification of egocentric and exocentirc videos using a 3DCNN, with pretrained weights from the 1M Sports dataset; Also includes an option to use optical flow.
