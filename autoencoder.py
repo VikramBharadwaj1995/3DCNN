@@ -21,7 +21,6 @@ class autoencoder(nn.Module):
             nn.ConvTranspose2d(16, 32, 5, stride=3, padding=1),
             nn.ReLU(True),
             nn.ConvTranspose2d(32, 1, 2, stride=2, padding=1),
-            nn.Tanh()
         )
 
     def forward(self, x):
